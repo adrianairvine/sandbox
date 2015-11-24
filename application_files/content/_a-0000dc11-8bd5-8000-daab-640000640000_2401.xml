@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <contentHaul xmlns:a="http://www.appian.com/ae/types/2009">
     <rulesFolder>
-        <name>TA Expression Rules</name>
-        <uuid>_a-0000dc10-5e89-8000-daab-640000640000_2396</uuid>
+        <name>TA Constants</name>
+        <uuid>_a-0000dc11-8bd5-8000-daab-640000640000_2401</uuid>
         <description></description>
         <parentUuid>SYSTEM_RULES_ROOT</parentUuid>
         <visibility>
@@ -41,4 +41,4 @@
             <groups/>
         </role>
     </roleMap>
-</contentHaul> 
+</contentHaul>

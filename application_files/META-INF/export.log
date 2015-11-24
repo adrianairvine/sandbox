@@ -1,18 +1,18 @@
 Success (3):
-content 2409 _a-0000dc11-8bd5-8000-daab-640000640000_2409 "ATA Constants"
-content 2410 _a-0000dc11-8bd5-8000-daab-640000640000_2410 "ATA_TEST_CONSTANT"
-application 2408 _a-0000dc11-8bd5-8000-daab-640000640000_2408 "Another Test App"
+content 2423 _a-0000dc11-96d1-8000-daab-640000640000_2428 "TTA Constants"
+content 2424 _a-0000dc11-96d1-8000-daab-640000640000_2429 "TTA_CONSTANT"
+application 2422 _a-0000dc11-96d1-8000-daab-640000640000_2427 "Third Test App"
 
 Trace:
-2015-11-24 19:42:05.03 DEBUG application 2408 _a-0000dc11-8bd5-8000-daab-640000640000_2408 Begin transport.
-2015-11-24 19:42:05.03 DEBUG application 2408 _a-0000dc11-8bd5-8000-daab-640000640000_2408 Retrieving object data.
-2015-11-24 19:42:05.035 DEBUG application 2408 _a-0000dc11-8bd5-8000-daab-640000640000_2408 App associated objects: GlobalIdMap[content=[_a-0000dc11-8bd5-8000-daab-640000640000_2409, _a-0000dc11-8bd5-8000-daab-640000640000_2410]]
-2015-11-24 19:42:05.036 DEBUG application 2408 _a-0000dc11-8bd5-8000-daab-640000640000_2408 Invalid associated objects: GlobalIdMap[]
-2015-11-24 19:42:05.036 DEBUG application 2408 _a-0000dc11-8bd5-8000-daab-640000640000_2408 Adding valid associated objects to be exported: GlobalBindingMap[content={_a-0000dc11-8bd5-8000-daab-640000640000_2409=2409, _a-0000dc11-8bd5-8000-daab-640000640000_2410=2410}]
-2015-11-24 19:42:05.036 DEBUG application 2408 _a-0000dc11-8bd5-8000-daab-640000640000_2408 Setting uuids of object references.
-2015-11-24 19:42:05.036 DEBUG application 2408 _a-0000dc11-8bd5-8000-daab-640000640000_2408 Processing reference: Application.forum
-2015-11-24 19:42:05.037 DEBUG application 2408 _a-0000dc11-8bd5-8000-daab-640000640000_2408 Processing reference: Application.parent
-2015-11-24 19:42:05.039 DEBUG application 2408 _a-0000dc11-8bd5-8000-daab-640000640000_2408 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@65e8856d[
+2015-11-24 20:14:48.795 DEBUG application 2422 _a-0000dc11-96d1-8000-daab-640000640000_2427 Begin transport.
+2015-11-24 20:14:48.795 DEBUG application 2422 _a-0000dc11-96d1-8000-daab-640000640000_2427 Retrieving object data.
+2015-11-24 20:14:48.807 DEBUG application 2422 _a-0000dc11-96d1-8000-daab-640000640000_2427 App associated objects: GlobalIdMap[content=[_a-0000dc11-96d1-8000-daab-640000640000_2428, _a-0000dc11-96d1-8000-daab-640000640000_2429]]
+2015-11-24 20:14:48.808 DEBUG application 2422 _a-0000dc11-96d1-8000-daab-640000640000_2427 Invalid associated objects: GlobalIdMap[]
+2015-11-24 20:14:48.808 DEBUG application 2422 _a-0000dc11-96d1-8000-daab-640000640000_2427 Adding valid associated objects to be exported: GlobalBindingMap[content={_a-0000dc11-96d1-8000-daab-640000640000_2428=2423, _a-0000dc11-96d1-8000-daab-640000640000_2429=2424}]
+2015-11-24 20:14:48.808 DEBUG application 2422 _a-0000dc11-96d1-8000-daab-640000640000_2427 Setting uuids of object references.
+2015-11-24 20:14:48.808 DEBUG application 2422 _a-0000dc11-96d1-8000-daab-640000640000_2427 Processing reference: Application.forum
+2015-11-24 20:14:48.809 DEBUG application 2422 _a-0000dc11-96d1-8000-daab-640000640000_2427 Processing reference: Application.parent
+2015-11-24 20:14:48.812 DEBUG application 2422 _a-0000dc11-96d1-8000-daab-640000640000_2427 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@819a0b4[
   ContentRole[name=readers,inherit=false,allowForAll=false]
   ContentRole[name=authors,inherit=false,allowForAll=false]
   ContentRole[name=administrators,inherit=false,allowForAll=false]
@@ -21,18 +21,18 @@ Trace:
   ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
   securityVector=1:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=false,SEC_INH_EDITOR=false,SEC_INH_VIEWER=false,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
 ]
-2015-11-24 19:42:05.039 DEBUG application 2408 _a-0000dc11-8bd5-8000-daab-640000640000_2408 Processing reference: ContentRole[name=readers,inherit=false,allowForAll=false]
-2015-11-24 19:42:05.039 DEBUG application 2408 _a-0000dc11-8bd5-8000-daab-640000640000_2408 Processing reference: ContentRole[name=authors,inherit=false,allowForAll=false]
-2015-11-24 19:42:05.039 DEBUG application 2408 _a-0000dc11-8bd5-8000-daab-640000640000_2408 Processing reference: ContentRole[name=administrators,inherit=false,allowForAll=false]
-2015-11-24 19:42:05.039 DEBUG application 2408 _a-0000dc11-8bd5-8000-daab-640000640000_2408 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
-2015-11-24 19:42:05.039 DEBUG application 2408 _a-0000dc11-8bd5-8000-daab-640000640000_2408 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
-2015-11-24 19:42:05.039 DEBUG application 2408 _a-0000dc11-8bd5-8000-daab-640000640000_2408 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
-2015-11-24 19:42:05.041 DEBUG content 2409 _a-0000dc11-8bd5-8000-daab-640000640000_2409 Begin transport.
-2015-11-24 19:42:05.041 DEBUG content 2409 _a-0000dc11-8bd5-8000-daab-640000640000_2409 Retrieving object data.
-2015-11-24 19:42:05.051 DEBUG content 2409 _a-0000dc11-8bd5-8000-daab-640000640000_2409 Setting uuids of object references.
-2015-11-24 19:42:05.051 DEBUG content 2409 _a-0000dc11-8bd5-8000-daab-640000640000_2409 Processing reference: RulesFolder.forum
-2015-11-24 19:42:05.052 DEBUG content 2409 _a-0000dc11-8bd5-8000-daab-640000640000_2409 Processing reference: RulesFolder.parent
-2015-11-24 19:42:05.054 DEBUG content 2409 _a-0000dc11-8bd5-8000-daab-640000640000_2409 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@388acdd0[
+2015-11-24 20:14:48.812 DEBUG application 2422 _a-0000dc11-96d1-8000-daab-640000640000_2427 Processing reference: ContentRole[name=readers,inherit=false,allowForAll=false]
+2015-11-24 20:14:48.812 DEBUG application 2422 _a-0000dc11-96d1-8000-daab-640000640000_2427 Processing reference: ContentRole[name=authors,inherit=false,allowForAll=false]
+2015-11-24 20:14:48.812 DEBUG application 2422 _a-0000dc11-96d1-8000-daab-640000640000_2427 Processing reference: ContentRole[name=administrators,inherit=false,allowForAll=false]
+2015-11-24 20:14:48.812 DEBUG application 2422 _a-0000dc11-96d1-8000-daab-640000640000_2427 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2015-11-24 20:14:48.812 DEBUG application 2422 _a-0000dc11-96d1-8000-daab-640000640000_2427 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2015-11-24 20:14:48.812 DEBUG application 2422 _a-0000dc11-96d1-8000-daab-640000640000_2427 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2015-11-24 20:14:48.82 DEBUG content 2423 _a-0000dc11-96d1-8000-daab-640000640000_2428 Begin transport.
+2015-11-24 20:14:48.82 DEBUG content 2423 _a-0000dc11-96d1-8000-daab-640000640000_2428 Retrieving object data.
+2015-11-24 20:14:48.832 DEBUG content 2423 _a-0000dc11-96d1-8000-daab-640000640000_2428 Setting uuids of object references.
+2015-11-24 20:14:48.832 DEBUG content 2423 _a-0000dc11-96d1-8000-daab-640000640000_2428 Processing reference: RulesFolder.forum
+2015-11-24 20:14:48.833 DEBUG content 2423 _a-0000dc11-96d1-8000-daab-640000640000_2428 Processing reference: RulesFolder.parent
+2015-11-24 20:14:48.836 DEBUG content 2423 _a-0000dc11-96d1-8000-daab-640000640000_2428 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@2f4bffd4[
   ContentRole[name=readers,inherit=true,allowForAll=false]
   ContentRole[name=authors,inherit=true,allowForAll=false]
   ContentRole[name=administrators,inherit=true,allowForAll=false]
@@ -41,22 +41,22 @@ Trace:
   ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
   securityVector=15:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=true,SEC_INH_EDITOR=true,SEC_INH_VIEWER=true,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
 ]
-2015-11-24 19:42:05.054 DEBUG content 2409 _a-0000dc11-8bd5-8000-daab-640000640000_2409 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
-2015-11-24 19:42:05.054 DEBUG content 2409 _a-0000dc11-8bd5-8000-daab-640000640000_2409 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
-2015-11-24 19:42:05.054 DEBUG content 2409 _a-0000dc11-8bd5-8000-daab-640000640000_2409 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
-2015-11-24 19:42:05.054 DEBUG content 2409 _a-0000dc11-8bd5-8000-daab-640000640000_2409 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
-2015-11-24 19:42:05.054 DEBUG content 2409 _a-0000dc11-8bd5-8000-daab-640000640000_2409 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
-2015-11-24 19:42:05.054 DEBUG content 2409 _a-0000dc11-8bd5-8000-daab-640000640000_2409 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
-2015-11-24 19:42:05.054 DEBUG content 2409 _a-0000dc11-8bd5-8000-daab-640000640000_2409 Exporting binary resources.
-2015-11-24 19:42:05.054 DEBUG content 2409 _a-0000dc11-8bd5-8000-daab-640000640000_2409 Serializing object to XML.
-2015-11-24 19:42:05.058 DEBUG content 2409 _a-0000dc11-8bd5-8000-daab-640000640000_2409 Object transported.
-2015-11-24 19:42:05.058 DEBUG content 2410 _a-0000dc11-8bd5-8000-daab-640000640000_2410 Begin transport.
-2015-11-24 19:42:05.058 DEBUG content 2410 _a-0000dc11-8bd5-8000-daab-640000640000_2410 Retrieving object data.
-2015-11-24 19:42:05.069 DEBUG content 2410 _a-0000dc11-8bd5-8000-daab-640000640000_2410 Setting uuids of object references.
-2015-11-24 19:42:05.069 DEBUG content 2410 _a-0000dc11-8bd5-8000-daab-640000640000_2410 Processing reference: [Content:id=2410,versionId=-1,name=ATA_TEST_CONSTANT,description=,type=32,subtype=0,uuid=_a-0000dc11-8bd5-8000-daab-640000640000_2410,parent=2409,parentName=ATA Constants,parentType=2,log=2410,logName=ATA_TEST_CONSTANT,state=255,visibility=35,security=15,creator=adriana.irvine,createdTimestamp=2015-11-24 19:41:50.0,updatedTimestamp=2015-11-24 19:41:50.0,size=0,lockedBy=,changesRequireApproval=false,attributes={system=0, hidden=0, ruletype=0, multiple=0, value=5, returnType=1},partition=1,partitionName=C:/appian/11-23-15_711/_admin/accdocs1]
-2015-11-24 19:42:05.069 DEBUG content 2410 _a-0000dc11-8bd5-8000-daab-640000640000_2410 Processing reference: Constant.forum
-2015-11-24 19:42:05.07 DEBUG content 2410 _a-0000dc11-8bd5-8000-daab-640000640000_2410 Processing reference: Constant.parent
-2015-11-24 19:42:05.072 DEBUG content 2410 _a-0000dc11-8bd5-8000-daab-640000640000_2410 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@19e8990[
+2015-11-24 20:14:48.836 DEBUG content 2423 _a-0000dc11-96d1-8000-daab-640000640000_2428 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
+2015-11-24 20:14:48.836 DEBUG content 2423 _a-0000dc11-96d1-8000-daab-640000640000_2428 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
+2015-11-24 20:14:48.836 DEBUG content 2423 _a-0000dc11-96d1-8000-daab-640000640000_2428 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
+2015-11-24 20:14:48.836 DEBUG content 2423 _a-0000dc11-96d1-8000-daab-640000640000_2428 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2015-11-24 20:14:48.836 DEBUG content 2423 _a-0000dc11-96d1-8000-daab-640000640000_2428 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2015-11-24 20:14:48.836 DEBUG content 2423 _a-0000dc11-96d1-8000-daab-640000640000_2428 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2015-11-24 20:14:48.836 DEBUG content 2423 _a-0000dc11-96d1-8000-daab-640000640000_2428 Exporting binary resources.
+2015-11-24 20:14:48.836 DEBUG content 2423 _a-0000dc11-96d1-8000-daab-640000640000_2428 Serializing object to XML.
+2015-11-24 20:14:48.838 DEBUG content 2423 _a-0000dc11-96d1-8000-daab-640000640000_2428 Object transported.
+2015-11-24 20:14:48.838 DEBUG content 2424 _a-0000dc11-96d1-8000-daab-640000640000_2429 Begin transport.
+2015-11-24 20:14:48.838 DEBUG content 2424 _a-0000dc11-96d1-8000-daab-640000640000_2429 Retrieving object data.
+2015-11-24 20:14:48.847 DEBUG content 2424 _a-0000dc11-96d1-8000-daab-640000640000_2429 Setting uuids of object references.
+2015-11-24 20:14:48.847 DEBUG content 2424 _a-0000dc11-96d1-8000-daab-640000640000_2429 Processing reference: [Content:id=2424,versionId=-1,name=TTA_CONSTANT,description=,type=32,subtype=0,uuid=_a-0000dc11-96d1-8000-daab-640000640000_2429,parent=2423,parentName=TTA Constants,parentType=2,log=2424,logName=TTA_CONSTANT,state=255,visibility=35,security=15,creator=adriana.irvine,createdTimestamp=2015-11-24 20:14:34.0,updatedTimestamp=2015-11-24 20:14:34.0,size=0,lockedBy=,changesRequireApproval=false,attributes={system=0, hidden=0, ruletype=0, multiple=0, value=5, returnType=1},partition=1,partitionName=C:/appian/11-23-15_711/_admin/accdocs1]
+2015-11-24 20:14:48.847 DEBUG content 2424 _a-0000dc11-96d1-8000-daab-640000640000_2429 Processing reference: Constant.forum
+2015-11-24 20:14:48.847 DEBUG content 2424 _a-0000dc11-96d1-8000-daab-640000640000_2429 Processing reference: Constant.parent
+2015-11-24 20:14:48.85 DEBUG content 2424 _a-0000dc11-96d1-8000-daab-640000640000_2429 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@6678ffc[
   ContentRole[name=readers,inherit=true,allowForAll=false]
   ContentRole[name=authors,inherit=true,allowForAll=false]
   ContentRole[name=administrators,inherit=true,allowForAll=false]
@@ -65,15 +65,15 @@ Trace:
   ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
   securityVector=15:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=true,SEC_INH_EDITOR=true,SEC_INH_VIEWER=true,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
 ]
-2015-11-24 19:42:05.072 DEBUG content 2410 _a-0000dc11-8bd5-8000-daab-640000640000_2410 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
-2015-11-24 19:42:05.072 DEBUG content 2410 _a-0000dc11-8bd5-8000-daab-640000640000_2410 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
-2015-11-24 19:42:05.072 DEBUG content 2410 _a-0000dc11-8bd5-8000-daab-640000640000_2410 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
-2015-11-24 19:42:05.072 DEBUG content 2410 _a-0000dc11-8bd5-8000-daab-640000640000_2410 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
-2015-11-24 19:42:05.072 DEBUG content 2410 _a-0000dc11-8bd5-8000-daab-640000640000_2410 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
-2015-11-24 19:42:05.072 DEBUG content 2410 _a-0000dc11-8bd5-8000-daab-640000640000_2410 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
-2015-11-24 19:42:05.072 DEBUG content 2410 _a-0000dc11-8bd5-8000-daab-640000640000_2410 Exporting binary resources.
-2015-11-24 19:42:05.072 DEBUG content 2410 _a-0000dc11-8bd5-8000-daab-640000640000_2410 Serializing object to XML.
-2015-11-24 19:42:05.074 DEBUG content 2410 _a-0000dc11-8bd5-8000-daab-640000640000_2410 Object transported.
-2015-11-24 19:42:05.074 DEBUG application 2408 _a-0000dc11-8bd5-8000-daab-640000640000_2408 Exporting binary resources.
-2015-11-24 19:42:05.074 DEBUG application 2408 _a-0000dc11-8bd5-8000-daab-640000640000_2408 Serializing object to XML.
-2015-11-24 19:42:05.076 DEBUG application 2408 _a-0000dc11-8bd5-8000-daab-640000640000_2408 Object transported.
+2015-11-24 20:14:48.85 DEBUG content 2424 _a-0000dc11-96d1-8000-daab-640000640000_2429 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
+2015-11-24 20:14:48.85 DEBUG content 2424 _a-0000dc11-96d1-8000-daab-640000640000_2429 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
+2015-11-24 20:14:48.85 DEBUG content 2424 _a-0000dc11-96d1-8000-daab-640000640000_2429 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
+2015-11-24 20:14:48.85 DEBUG content 2424 _a-0000dc11-96d1-8000-daab-640000640000_2429 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2015-11-24 20:14:48.85 DEBUG content 2424 _a-0000dc11-96d1-8000-daab-640000640000_2429 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2015-11-24 20:14:48.85 DEBUG content 2424 _a-0000dc11-96d1-8000-daab-640000640000_2429 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2015-11-24 20:14:48.85 DEBUG content 2424 _a-0000dc11-96d1-8000-daab-640000640000_2429 Exporting binary resources.
+2015-11-24 20:14:48.85 DEBUG content 2424 _a-0000dc11-96d1-8000-daab-640000640000_2429 Serializing object to XML.
+2015-11-24 20:14:48.853 DEBUG content 2424 _a-0000dc11-96d1-8000-daab-640000640000_2429 Object transported.
+2015-11-24 20:14:48.853 DEBUG application 2422 _a-0000dc11-96d1-8000-daab-640000640000_2427 Exporting binary resources.
+2015-11-24 20:14:48.853 DEBUG application 2422 _a-0000dc11-96d1-8000-daab-640000640000_2427 Serializing object to XML.
+2015-11-24 20:14:48.854 DEBUG application 2422 _a-0000dc11-96d1-8000-daab-640000640000_2427 Object transported.

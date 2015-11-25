@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <contentHaul xmlns:a="http://www.appian.com/ae/types/2009">
-    <constant>
-        <name>ATA_TEST_CONSTANT</name>
-        <uuid>_a-0000dc11-8bd5-8000-daab-640000640000_2410</uuid>
+    <rulesFolder>
+        <name>ATA Expression Rules</name>
+        <uuid>_a-0000dc12-ad8c-8000-daab-640000640000_2436</uuid>
         <description></description>
-        <parentUuid>_a-0000dc11-8bd5-8000-daab-640000640000_2409</parentUuid>
+        <parentUuid>SYSTEM_RULES_ROOT</parentUuid>
         <visibility>
             <advertise>false</advertise>
             <hierarchy>true</hierarchy>
@@ -14,14 +14,7 @@
             <system>false</system>
             <unlogged>false</unlogged>
         </visibility>
-        <typedValue>
-            <type>
-                <name>int</name>
-                <namespace>http://www.w3.org/2001/XMLSchema</namespace>
-            </type>
-            <value>5</value>
-        </typedValue>
-    </constant>
+    </rulesFolder>
     <roleMap public="true">
         <role allowForAll="false" inherit="true" name="readers">
             <users/>
@@ -48,4 +41,4 @@
             <groups/>
         </role>
     </roleMap>
-</contentHaul> 
+</contentHaul>
